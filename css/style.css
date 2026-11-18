@@ -70,3 +70,31 @@ th {
 form label {
   vertical-align: top;
 }
+
+form {
+  max-width: 550px; 
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+form label {
+  display: block;
+  font-weight: bold;
+  margin-top: 12px;
+  margin-bottom: 5px;
+}
+
+form input, form textarea {
+  width: 98%;
+  padding: 8px;
+}
+
+form button {
+  background-color: black;
+  color: white;
+  padding: 10px 15px;
+  margin-top: 15px;
+  border: none;
+  border-radius: 10px;
+}
